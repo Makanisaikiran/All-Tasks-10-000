@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;background-color: aquamarine;padding: 1%;">Order Details</h1>
+    </header>
+    <main style="background-color: antiquewhite;padding: 1%;">
+        <form action="./orderconfirmed.html" target="_blank" style="text-align: center;">
+            <label for="Name"></label>
+            <input type="text" name="Name" id="Name" required placeholder="Name" autofocus><br><br>
+            <label for="phnum"></label>
+            <input type="tel" name="Phone number" id="phnum" required placeholder="Phone Number"><br><br>
+            <label for="address"></label>
+            <textarea name="address" id="address" cols="20" rows="5" placeholder="Address"></textarea><br><br>
+            <label for="quantity"></label>
+            <input type="number" name="quantity" id="quantity" required placeholder="quantity max-5" max="5" min="1" style="width: 164px;"><br><br>
+            <input type="submit" value="Confirm order">
+        </form>
+    </main>
+</body>
+
+</html>
